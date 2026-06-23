@@ -1,0 +1,234 @@
+<!doctype html>
+<html>
+<head>
+  <title>lagos caterers</title>
+</head>
+<link rel="stylesheet" href="style.css">
+  <body>
+    <header class="starter">
+      <h1>Lagos catering</h1>
+      <h3>"Serving Happiness, One Plate at a Time." 🍽️✨</h3>
+      <ul class="tab">
+        <li><a href="#About us">About us</a></li>
+        <li><a href="#Our services">Our services</a></li>
+        <li><a href="#our delicious">Our delicious</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      
+    </header>
+    
+    <section class="about" id="About us">
+      <h2>👤About us</h2>
+      <p>
+
+We are a passionate catering team dedicated to creating unforgettable dining experiences for every occasion. Whether it's a wedding, birthday party, corporate event, or family gathering, we provide delicious food, exceptional service, and attention to every detail. Our goal is to make your event memorable with quality meals prepared using fresh ingredients.
+      
+      </p>
+      
+    </section>
+    
+    <section class="services" id="Our services">
+      <h2> 🍽️Our services</h2>
+      <p>
+        
+
+• Wedding Catering
+• Corporate Event Catering
+• Birthday Party Catering
+• Outdoor Event Catering
+• Buffet Services
+• Customized Menus
+• Food Delivery for Special Events
+
+We offer professional catering solutions tailored to your needs, ensuring excellent food and outstanding service for every event.
+        
+        
+      </p>
+      
+      
+    </section>
+    
+    <section class="gallery">
+    <img src="Images/lagos.jpg"   alt="lagos food gallery" class="img">
+
+    </section>
+    
+    <section class="deliciois" id="our delicious">
+      <h2>😋Our delicious</h2>
+      <p>
+        OUR DELICIOUS MENU
+
+Experience a variety of mouthwatering dishes prepared with fresh ingredients and expert care. From flavorful appetizers and hearty main courses to delightful desserts and refreshing beverages, our menu is designed to satisfy every guest and make your event truly special.
+      </p>
+      
+      
+    </section>
+    
+  <section class="call" id="contact">
+    <h2>📞Contact us</h2>
+    <label> Your Name:</label>
+    <input type="text"><br><br>
+    <label>Your email:</label>
+    <input type="email"><br><br>
+    <label>Phone no:</label>
+    <input type="number"><br><br>
+    <p id="resultElement"></p>
+  <button id="submitBtn">Submit</button>
+    
+    <h3>OR</h3>
+    <p>Reach us through phone call:</p>
+    <section class="number">
+       <ul>
+        <li><a href="📞0714251840" class="number">📞0714251840</a></li>
+        <p>Or</p>
+       <li><a href="📞0736750584" class="number">📞0736750584</a></li>
+    </ul>
+  </section>
+    
+    <section class="end">
+      <footer>
+        <p>©2026 Lagos catering</p>
+        
+    <div class="social">
+      <a href="#" target="_blank">LinkedIn</a> | 
+      <a href="#" target="_blank">GitHub</a> | 
+      <a href="#" target="_blank">Twitter</a>
+    </div>
+      </footer>
+    </section>
+  
+    <style>
+      body{background:#c2bebe;
+        
+      }
+      
+      .tab{
+        position:fixed;
+        top:-20px;
+        left:-10px;
+        display:flex;
+        flex-direction: row;
+        gap:50px;
+        z-index: 1000;
+        font-size:19px;
+        text-decoration: none;
+        background:#9eeced;
+        color:white;
+        width:1000px;
+        height:30px;
+        padding-left: 200px;
+        padding: 10px 15px;
+        border-radius:10px;
+        border:none;
+        font-weight:bold;
+        transition: 0.2s;
+        
+      }
+      .tab:hover{
+        background:#9fe0c2;
+        transform: translateX(5px);
+      }
+      .starter{
+        background-image:url("Images/chef.png");
+        width:440px;
+        height:400px;
+        border-radius:20px;
+        background-size:cover;
+        background-position: centre;
+      }
+      h1{
+        color:#ff0000;
+        font-size:50px;
+        padding:20px;
+      }
+      h2{
+        padding:10px;
+        color:#e3fd67;
+        font-size:30px;
+        padding-left:50px;
+        
+      }
+      h3{
+        color:#f33232;
+        font-size:25px;
+      }
+      p{
+        font-family: Arial,Sans-Serif;
+        font-size:20px;
+      }
+      
+      
+      
+    .call{font-size:20px;
+      background-image:url("Images/end.png");
+      color:white;
+      width:320px;
+      height:700px;
+      
+      border-radius:15px;
+      text-align:centre;
+      padding:20px;
+      padding-left:100px;
+      font-size:35px;
+      
+      
+      
+    }
+    input{
+      font-size:19px;
+      height: 35px;
+      width:160px;
+      border:none;
+      border-radius:10px;
+    }
+    
+    .end{background:#ce3030f7;
+    margin-top:-20px;
+
+      font-size:20px;
+      padding-left:120px;
+      margin-left:-80px;
+    
+      border-radius:10px;
+      
+    }
+    .img{
+      width:450px;
+      border-radius:20px;
+      cursor:pointer;
+      background:red;
+    }
+    .social{
+      gap:90px;
+      
+    }
+    button{
+      font-size:25px;
+      border-radius:10px;
+      cursor:pointer;
+    }
+    button:hover{
+      background:#84e1e4 ;
+      transition:0.2s;
+    }
+    .number{
+      color:#ffff00;
+    }
+  
+    </style>
+    
+    <script>
+     const submitBtn=document.getElementById("submitBtn");
+     const resultElement=document.getElementById("resultElement");
+     
+     
+     submitBtn.onclick=function(){
+       
+       resultElement.textContent="coming to you soon";
+     }
+      
+    </script>
+    
+    
+  </body>
+  </html>
